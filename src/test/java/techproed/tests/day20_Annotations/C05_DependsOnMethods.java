@@ -22,7 +22,7 @@ public class C05_DependsOnMethods {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
         //amazon sayfasina gidiniz
         driver.get("https://amazon.com");

@@ -39,7 +39,7 @@ public class C01_Notasyonlar {
         System.out.println("AfterMethod notasyonuna sahip bir method her test methodundan sonra 1 kez calisir");
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
         System.out.println("test01 test methodu calisti");
     }

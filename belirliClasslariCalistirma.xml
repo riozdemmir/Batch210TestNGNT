@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch210">
+    <test name="Smoke Test">
+
+        <classes>
+            <class name="techproed.tests.day20_Annotations.C01_Notasyonlar"></class>
+            <class name="techproed.tests.day21_softAssertion_pom.C01_SoftAssertion"></class>
+            <class name="techproed.tests.day22_pom.C01_PageKullanimi"></class>
+        </classes>
+
+    </test>
+</suite>
+
+        <!--yorum satiri birakmak icin ctrl + / a basin-->

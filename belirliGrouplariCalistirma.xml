@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch210">
+    <test name="Smoke Test">
+    <groups>
+        <run>
+            <include name="smoke"></include>
+            <exclude name=""></exclude>
+        </run>
+    </groups>
+        <packages>
+            <package name="techproed.*"></package>
+        </packages>
+
+    </test>
+</suite>
+
+        <!--yorum satiri birakmak icin ctrl + / a basin-->
+        <!--before ve afterla sadece class sevıyesınde calıstırabiliriz-->
+        <!--farklı class sevıyelerınde gruplandırdıgımız testlerı çaliştiririz-->
